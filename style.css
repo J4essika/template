@@ -1,0 +1,69 @@
+@charset 'utf';
+
+:root{
+    --cor0:#fff;
+    --cor2:#565656;
+    --cor3:#000;
+}
+header{
+    background-image: url(fundo.png);
+    
+}
+
+a{
+    
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--cor0);
+    background-color: var(--cor2);
+
+}
+
+nav,a:hover{
+    background-color:var(--cor3);
+    
+
+}
+
+body{
+    background-image: url(fundo2.png);
+    width: 100%;
+}
+
+
+h3{
+    font-family: tecnofont;
+    text-align: center;
+}
+
+h2{
+    font-family: tecnofont;
+    text-align: center;
+}
+
+@font-face{
+   font-family:'tecnofont'; 
+   src: url(techno_hideo/techno_hideo_bold.ttf)format("truetype");
+   font-style: normal;
+
+}
+    
+
+div {
+    font-size: larger;
+    padding: 20vh;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+    color:var(--cor2)
+    
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--cor2);
+    text-align: center;
+    color:var(--cor0)
+    
+}
