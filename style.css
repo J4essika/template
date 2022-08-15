@@ -23,7 +23,9 @@ a{
 }
 
 nav,a:hover{
+    
     background-color:var(--cor4)
+    
     
 
 }
@@ -31,6 +33,9 @@ nav,a:hover{
 body{
     background-image: url(fundo2.png);
     width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 
