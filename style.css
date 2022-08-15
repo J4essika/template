@@ -4,6 +4,8 @@
     --cor0:#fff;
     --cor2:#565656;
     --cor3:#000;
+    --cor4:#0B4473;
+    --font:tecnofont;
 }
 header{
     background-image: url(fundo.png);
@@ -11,17 +13,17 @@ header{
 }
 
 a{
-    
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+    font-family: var(--font);
     color: var(--cor0);
-    background-color: var(--cor2);
+    background-color: var(--cor2)
 
 }
 
 nav,a:hover{
-    background-color:var(--cor3);
+    background-color:var(--cor4)
     
 
 }
