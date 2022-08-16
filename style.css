@@ -36,15 +36,22 @@ body{
     margin: auto;
 }
 
+h1{
+    color: var(--cor0);
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    font-family: var(--font)
+}
 
 h3{
     font-family: tecnofont;
-    text-align: center;
+    text-align:center
 }
 
 h2{
-    font-family: tecnofont;
-    text-align: center;
+    font-family:tecnofont;
+    text-align:center;
 }
 
 @font-face{
